@@ -7,8 +7,9 @@ __pycache__/
 .pytest_cache/
 
 # Data & Models
-images/
-masks/
+
+#images/
+#masks/
 output/
 *.json
 *.pkl
