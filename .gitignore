@@ -1,0 +1,32 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Data & Models
+images/
+masks/
+output/
+*.json
+*.pkl
+*.pth
+*.h5
+
+# Environment
+.env
+.venv/
+venv/
+.direnv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
