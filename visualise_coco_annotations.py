@@ -83,7 +83,7 @@ def visualize_annotations(annotations_file, images_folder, output_folder):
         print(f"Saved annotated image: {output_path}")
 
 if __name__ == "__main__":
-    annotations_file = "instances_default.json"
+    annotations_file = "instances_fixed.json"
     images_folder = "images"
     output_folder = "output"
     
