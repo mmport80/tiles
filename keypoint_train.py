@@ -21,7 +21,7 @@ def resize_and_pad(image, target_size):
     
     return np.array(new_image)
 
-def load_coco_data(annotation_file, image_dir, target_size=(224, 224), max_images=50):
+def load_coco_data(annotation_file, image_dir, target_size=(256, 256), max_images=50):
     coco = COCO(annotation_file)
     image_ids = coco.getImgIds()
     images = []
