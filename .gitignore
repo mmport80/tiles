@@ -11,7 +11,7 @@ __pycache__/
 #images/
 #masks/
 output/
-*.json
+#*.json
 *.pkl
 *.pth
 *.h5
